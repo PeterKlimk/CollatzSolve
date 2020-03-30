@@ -1,0 +1,11 @@
+[package]
+name = "collatz"
+version = "0.1.0"
+authors = ["Peter Klimenko <peterklimk@outlook.com>"]
+
+[dependencies]
+time = "*"
+clap = "*"
+
+[profile.release]
+debug = true
